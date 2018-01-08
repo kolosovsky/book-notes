@@ -305,4 +305,40 @@
 7. an Englishman ... the English
 8. an Ukrainian ... Ukrainians
 
+### 78.1 
+1. the Odeon in Market Street
+2. Turner's supermarket in Carter Road
+3. the Crown Hotel in Park Road
+4. St Peter's in market street
+5. the City Museum in George street
+6. Blackstone's books is Forest Avenue
+7. Mario's pizza in George Street
+8. Victoria Park at the end of Market Street
 
+### 78.2
+1. Times Square
+2. the Eifell Tower
+3. Buckingham Palace
+4. th White House
+5. the Kremlin 
+6. Broadway
+7. the Acropolis
+8. Gatwick Airport
+
+### 78.3
+1. the British Museum
+2. Central Park
+3. St Jame's Park
+4. the Imperial Hotel is in Baker Street
+5. Dublin Airport
+6. Liverpool University
+7. Harrison's
+8. the Park Plaza
+9. the Statue of Liberty is at the entrance to New York Harbour
+10. the Science Museum
+11. IBM ... British Telecom
+12. the Classic
+13. the Great Wall
+14. the Times
+15. the Cambridge University Press
+16. the College of Art

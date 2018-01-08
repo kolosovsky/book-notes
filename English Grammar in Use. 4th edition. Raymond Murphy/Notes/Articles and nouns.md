@@ -159,19 +159,32 @@ we do not use the
 - with names of cities, towns etc.
 - when we use Mr/Mrs/Captain/Doctor etc. + a name (Mr Johnson / Doctor Johnson / President Johnson / Uncle Robert)
 - when we use mount (=mountain) and lake before a name
+- with names of most city streets/roads/squares/parks etc. (Union Street, Broadway)
+- with names of most important public buildings and institutions (airports, stations, universities etc.) that consists of two word (the first word is the name of a place ('Manchester,) or a person ('Harvard))
+- with many shops, restaurants, hotels, banks etc. that are named after people and end in -'s or -s (McDonald's, Barclays, Joe's Diner)
+- with churches that are named after saints (St John's Church)
+- with most of companies, airlines etc. (Fiat, Sony, IBM)
 
 we use the
 - in names with Republic, Kingdom, States etc. (the United States of America (the USA), the United Kingdom (the UK), the Czech Republic)
 - with the names of oceans, seas, rivers and canals (the Nile, the Indian Ocean)
 - with the names of deserts (the Sahara (Desert), the Gobi Desert)
 - with the plural names of people and places (the Taylors (= the Taylor family), the Netherlands, the Philippines, the Canaries, the Bahamas, the Alps)
+- with most buildings i.e. hotels, theatres, cinemas, museums, galleries etc. (the Royal Palace, the Empire State, the White House, the Eiffel Tower) except those in 'we do not use the' section 
+- with most names with of (the Bank of England, the Great Wall of China)
+- with most newspapers and many organisations (the Washington Post, the European Union, the BBC)
 
 we say
 - the north
 - the Middle East
+- the University of Cambridge
 
 but 
 - northern Brazil
 - North America 
+- Cambridge University
 
-note that on maps, the is not usually included in the name
+notes:
+- on maps, the is not usually included in the name
+- some names are only the + noun (the Kremlin, the Pentagon, the Acropolis)
+
