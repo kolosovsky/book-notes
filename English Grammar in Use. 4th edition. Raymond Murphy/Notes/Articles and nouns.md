@@ -153,36 +153,56 @@ a Mexican ---> Mexicans
 
 ##### names
 
-we do not use the
-- with names of people, continents, islands, mountains
-- with names of countries, states etc.
-- with names of cities, towns etc.
-- when we use Mr/Mrs/Captain/Doctor etc. + a name (Mr Johnson / Doctor Johnson / President Johnson / Uncle Robert)
-- when we use mount (=mountain) and lake before a name
-- with names of most city streets/roads/squares/parks etc. (Union Street, Broadway)
-- with names of most important public buildings and institutions (airports, stations, universities etc.) that consists of two word (the first word is the name of a place ('Manchester,) or a person ('Harvard))
-- with many shops, restaurants, hotels, banks etc. that are named after people and end in -'s or -s (McDonald's, Barclays, Joe's Diner)
-- with churches that are named after saints (St John's Church)
-- with most of companies, airlines etc. (Fiat, Sony, IBM)
-
 we use the
-- in names with Republic, Kingdom, States etc. (the United States of America (the USA), the United Kingdom (the UK), the Czech Republic)
-- with the names of oceans, seas, rivers and canals (the Nile, the Indian Ocean)
-- with the names of deserts (the Sahara (Desert), the Gobi Desert)
-- with the plural names of people and places (the Taylors (= the Taylor family), the Netherlands, the Philippines, the Canaries, the Bahamas, the Alps)
-- with most buildings i.e. hotels, theatres, cinemas, museums, galleries etc. (the Royal Palace, the Empire State, the White House, the Eiffel Tower) except those in 'we do not use the' section 
+- with name of countries that contain a word such as Republic, Kingdom, States, Emirates, Union, Coast
+- with the names of oceans, seas, rivers, canals, coasts, swamps, archipelagos, deserts, bridges (except Tower Bridge), pagodas
+- with the plural names of places i.e. collections of lakes, mountain chains, islands (the Netherlands, the Philippines, the Alps, the Great Lakes)
+- with the plural names of people (the Taylors)
+- with name of theatres, cinemas, museums, galleries, institutes, skyscrapers (the Royal Palace, the Empire State, the White House, the Eiffel Tower)
+  - except public buildings and institutions (airports, stations, universities etc.) that consists of two word (the first word is the name of a place ('Manchester,) or a person ('Harvard))
+  - except churches that are named after saints (St John's Church)
+  - except many shops, restaurants, hotels, banks etc. that are named after people and end in -'s or -s (McDonald's, Barclays, Joe's Diner)
 - with most names with of (the Bank of England, the Great Wall of China)
 - with most newspapers and many organisations (the Washington Post, the European Union, the BBC)
+- with extraordinary works of art or architecture (such as the Mona Lisa, the Colosseum and the Taj Mahal)
+- references on the globe (such as the Equator, the North Pole)
+
+exceptions
+ - the Matterhorn (mountain)
+ - the Grand Canyon (canyon)
+ - the High Street
 
 we say
 - the north
 - the Middle East
 - the University of Cambridge
+- in the morning
+- in the afternoon
+- in the evening
+- during the night
+- during the day
+- the day before yesterday
+- the day after tomorrow
+- the fall
+- the summer
+- a/the whole day, a/the whole month, an/the entire year, an/the entire decade
 
 but 
 - northern Brazil
 - North America 
 - Cambridge University
+- at night
+- at noon
+- at midnight
+- all day
+- all night
+- all month
+- every month
+- every year
+- last night
+- last Friday
+- yesterday
+- tomorrow
 
 notes:
 - on maps, the is not usually included in the name
