@@ -176,13 +176,9 @@ we say
 - the north
 - the Middle East
 - the University of Cambridge
-- in the morning
-- in the afternoon
-- in the evening
-- during the night
-- during the day
-- the day before yesterday
-- the day after tomorrow
+- in the morning, in the afternoon, in the evening
+- during the night, during the day
+- the day before yesterday, the day after tomorrow
 - the fall
 - the summer
 - a/the whole day, a/the whole month, an/the entire year, an/the entire decade
@@ -191,16 +187,10 @@ but
 - northern Brazil
 - North America 
 - Cambridge University
-- at night
-- at noon
-- at midnight
-- all day
-- all night
-- all month
-- every month
-- every year
-- last night
-- last Friday
+- at night, at noon, at midnight
+- all day, all night, all month
+- every month, every year, 
+- last night, last Friday
 - yesterday
 - tomorrow
 
