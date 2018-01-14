@@ -48,6 +48,11 @@
 
 > The sun is a star. 
 
+##### we don't use the with by in many expressions to say how we do something or to say how somebody travels
+> You can contact me by phone.
+
+> Jess usually goes to work by bus.
+
 ##### just remember
 - **the cinema**, **the theatre**, **the radio**, **the sea**, **the internet**, **the environment** ... 
 - **Platform 5**, **size 43**, **page 29**
