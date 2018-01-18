@@ -144,7 +144,7 @@ in a car / in a taxi
 ##### in
 - in the rain / in the sun / in the shade / in the dark / in bad weather
 - (write) in ink / in pen / in pencil
-- (write) in words / in figures / in capital Letters etc.
+- (write) in words / in figures / in capital letters etc.
 - (be/fall) in Love (with somebody) 
 - in (my) opinion
 

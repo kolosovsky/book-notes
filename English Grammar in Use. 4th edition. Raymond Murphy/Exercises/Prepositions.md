@@ -182,3 +182,21 @@
 10. on the whole
 
 ### 127.3
+1. at
+2. on a trip
+3. on fire
+4. at the age
+5. in the dark
+6. on holiday
+7. in fog
+8. on holiday
+9. at great speed
+10. at 17
+11. on the radio
+12. in my opinion ... on television
+13. on a cruise
+14. on a diet
+15. on the phone
+16. at 107.000 kilometers
+17. on the whole
+18. in the storm
