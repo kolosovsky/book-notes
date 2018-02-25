@@ -305,4 +305,43 @@
 7. an Englishman ... the English
 8. an Ukrainian ... Ukrainians
 
+### 77.1 
+1. -
+2. the
+3. the ... the
+4. -
+5. the
+6. -
 
+### 77.2
+1. OK
+2. in the north of Italy
+3. OK
+4. the United States
+5. the south ... the north
+6. OK
+7. the Channel
+8. the Middle East
+9. OK
+10. the Swiss Alps
+11. the UK
+12. the Seychelles ... the Indian Ocean
+13. OK
+14. the river Volga ... the Caspian Sea
+
+### 77.3 
+1. the Atlantic
+2. South America
+3. the Nile
+4. Sweden
+5. the United States
+6. the Rockies
+7. the Mediterranean
+8. Australia
+9. the Pacific
+10. the Indian Ocean
+11. the Thames
+12. the Danube
+13. Thailand
+14. the Panama Canal
+15. the Amazon
