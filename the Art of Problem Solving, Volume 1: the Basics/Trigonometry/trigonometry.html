@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<style>
+		line {
+			stroke: black;
+			stroke-width: 1px;
+		}
+	</style>
+</head>
+<body>
+<h3>FIND ANGLE KNOWING CATHETI</h3>
+<svg style="width: 100%; height: 200px;" id="svg-1">
+</svg>
+<script>
+	{
+		let svgElem = document.querySelector('#svg-1');
+		let triangleElem = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
+		let triangle = {
+			points: [
+				{x: 0, y: 0},
+				{x: 200, y: 150},
+				{x: 0, y: 150},
+			]
+		};
+		triangle.cathetus1 = triangle.points[0].y + triangle.points[1].y;
+		triangle.cathetus2 = triangle.points[0].x + triangle.points[1].x;
+		triangle.hypotenuse = Math.hypot(triangle.cathetus1, triangle.cathetus2);
+
+		triangleElem.setAttribute('fill', 'black');
+		triangleElem.setAttribute('points', triangle.points.reduce((str, point) => {
+			return str + ` ${point.x}, ${point.y}`;
+		}, ''));
+
+		svgElem.appendChild(triangleElem);
+
+		let lineElem = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+		let line = {
+			x1: triangle.cathetus2 + 100,
+			y1: triangle.cathetus1,
+			y2: triangle.cathetus1,
+		};
+		line.x2 = line.x1 + triangle.hypotenuse;
+
+		const tangent = triangle.cathetus1 / triangle.cathetus2;
+		const angle = Math.atan(tangent);
+
+		lineElem.setAttribute('x1', line.x1);
+		lineElem.setAttribute('y1', line.y1);
+		lineElem.setAttribute('x2', line.x2);
+		lineElem.setAttribute('y2', line.y2);
+		lineElem.setAttribute('style', `transform-origin: ${line.x2}px ${line.y2}px; transform: rotate(${angle}rad)`);
+
+		svgElem.appendChild(lineElem);
+	}
+</script>
+<h3>CALCULATE ROTATION FOR THE ARROW</h3>
+<svg style="width: 100%; height: 500px;" id="svg-2">
+	<image xlink:href="arrow.svg"/>
+</svg>
+<script>
+	{
+		let svgElem = document.querySelector('#svg-2');
+		const vector = {
+			x1: 100,
+			y1: 50,
+			x2: 200,
+			y2: 300
+		};
+		let lineElem = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+		lineElem.setAttribute('x1', vector.x1);
+		lineElem.setAttribute('y1', vector.y1);
+		lineElem.setAttribute('x2', vector.x2);
+		lineElem.setAttribute('y2', vector.y2);
+
+		svgElem.appendChild(lineElem);
+
+		let arrowElem = svgElem.querySelector('image');
+		let arrow = {
+			width: 45,
+			height: 45,
+		};
+
+		arrow.x = vector.x1 - (arrow.width / 2);
+		arrow.y = vector.y1 - (arrow.height / 2);
+
+		arrowElem.setAttribute('width', arrow.width);
+		arrowElem.setAttribute('height', arrow.height);
+		arrowElem.setAttribute('x', arrow.x);
+		arrowElem.setAttribute('y', arrow.y);
+
+		let angle = Math.atan2(vector.y2 - vector.y1, vector.x2 - vector.x1);
+
+		// ALTERNATIVE WAY
+		/*const tangent = (vector.y2 - vector.y1) / (vector.x2 - vector.x1);
+		let angle = Math.atan(tangent);
+
+		if (vector.x2 - vector.x1 >= 0) {
+			angle += Math.PI;
+		}*/
+
+		arrowElem.setAttribute('style', `transform-origin: ${arrow.x + arrow.width / 2}px ${arrow.y + arrow.height / 2}px; transform: rotate(${angle}rad)`);
+
+		svgElem.appendChild(arrowElem);
+	}
+</script>
+</body>
+</html>
