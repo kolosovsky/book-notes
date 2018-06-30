@@ -1,6 +1,6 @@
 ##### common verbs followed by a gerund
 - acknowledge
-- admikt
+- admit
 - advise
 - allow
 - anticipate
