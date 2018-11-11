@@ -1,2 +1,2 @@
-# Notes from books that I've read
+# Notes from books
 
