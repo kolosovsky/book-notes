@@ -10,3 +10,5 @@
 sweetest and most important sound in any language.
 - Principle 4. Be a good listener. Encourage others to talk about
 themselves.
+- Principle 5. Talk in terms of the other person's interests.
+- Principle 6. Make the other person feel important-and do it sincerely.
