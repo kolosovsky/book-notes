@@ -32,9 +32,10 @@ console.log(`the view has maximum length = ${int16Array.BYTES_PER_ELEMENT * int1
 int16Array[127] = 1;
 console.log(int16Array[127]); // 1
 
+// try to assign a value to an index exciding maximum length
 int16Array[128] = 2;
 console.log(int16Array[128]); // undefined
 
-// try to assign a value exceeding the allowed range (allowed range for int16Array is from 0 to 65536)
+// try to assign a value exceeding the allowed range (allowed range for int16Array is from 0 to 65535)
 int16Array[0] = 65536;
 console.log(int16Array[0]); // 0
