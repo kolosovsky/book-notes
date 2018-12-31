@@ -72,6 +72,62 @@
 13. we will be living
 14. you finish
 
+### 14
+1. 
+2. I've had
+3. I bought
+4. will be
+5. have been
+6. used to play
+7. have not been waiting
+8. was
+9. am going
+10. have not seen
+11. will have left
+
+### 15
+1. 
+2. I've been traveling
+3. I am beginning
+4. I've seen
+5. has been
+6. I've met
+7. I left
+8. I was staying
+9. I had planned
+10. I ended up
+11. I enjoyed
+12. I took
+13. met
+14. I will be staying
+15. I continue
+16. I get
+17. I am
+18. I will let
+19. I know
+20. I am staying
+21. we are visiting
+22. are building
+23. it will be
+24. I will be
+
+### 16
+1. 
+2. a
+3. c
+4. b, c
+5. b
+6. a, c
+7. a, c
+8. c
+9. b, c
+10. a, b
+11. a
+12. c
+13. a, b
+14. a, b
+15. b, c
+
 ### 29
 1. hotels ... a very nice hotel ... the sea
 2. a foreign country ... the language
