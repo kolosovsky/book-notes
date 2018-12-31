@@ -106,23 +106,62 @@
 
 ## Should
 
-#####
->
+##### you should do something = it is a good thing to do or the right thing to do
+> You look tired. You should go to bed.
 
-#####
->
+##### to say that we expect something to happen
+> Helen has been studying hard for the exam, so she should pass. (= I expect her to pass)
 
-#####
->
+##### you should have done something = you didn't do it, but it would have been the right thing to do
+> You missed a great party last night. You should have come.
 
-#####
->
+## Should 2
 
-#####
->
+##### you can use should after
+- insist
+- recommend
+- suggest
+- demand
+- propose
 
-#####
+> I insisted that he should apologise.
+
+##### also you can use should in it's important/vital/necessary/essential that ... should ...
+> It's essential that everyone should be here on time.
+
+##### you can also leave out should in this cases. this form is called the subjunctive
+> I insisted that he apologise.
+
+> It's essential that everyone be here on time.
+
+you can also use normal present and past tenses
+
+> It's essential that everyone is here on time.
+
+> I insisted that he apologised.
+
+##### after suggest, you cannot use to
+> What do you suggest we should do?
+
+> What do you suggest we do?
+
+You can also use -ing after suggest.
+
+> What do you suggest doing?
+
+##### you can say 'if something should happen'/'should something happen'.
+> We have no jobs at present, but if the situation should change, we will contact you.
+
+> Should the situation change, we will contact you.
+
+this means the same as ‘if the situation changes...'. with should, the speaker feels that the possibility is smaller.
+
+##### to give somebody advice
+> Shall I leave now?
 >
+> No, I should wait a bit.
+
+Here, I should wait = I would wait if i were you, I advise you to wait.
 
 #####
 >
