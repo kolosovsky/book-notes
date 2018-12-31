@@ -33,6 +33,10 @@ Often the difference is very small and either form is possible.
 ##### you can use won't to say that somebody refuses to do something
 > The car won't start. (= the car ‘refuses' to start)
 
+compare with
+
+> The car wouldn't start. (= it ‘refused’ to start)
+
 ##### we are not talking about what somebody has decided to do
 > When will you get your exam results?
 

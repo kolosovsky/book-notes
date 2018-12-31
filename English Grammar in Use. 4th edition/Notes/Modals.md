@@ -163,14 +163,71 @@ this means the same as ‘if the situation changes...'. with should, the speaker
 
 Here, I should wait = I would wait if i were you, I advise you to wait.
 
-#####
->
+## Had better, It's time...
 
-#####
->
+##### I had better (usually I'd better) do something = it is advisable to do it
+> I have to meet Amy in ten minutes. I'd better go now or I'll be late.
 
-#####
->
+> We'd better stop for petrol soon. The tank is almost empty.
 
-#####
->
+##### had better is similar to should, but not exactly the same. we use had better only for a specific situation, not for things in general:
+> It's late. You'd better go. / You should go. (a specific situation - both are possible)
+
+> You're always at home. You should go out more often. (in general - only should is possible)
+
+Also, with had better, there is always a danger or a problem if you don't follow the advice.
+
+> The film starts at 8.30. You'd better go now or you'll be late.
+
+##### you can say it's time (for somebody) to
+> It's time to go home. / It's time for us to go home.
+
+##### when we use it's time + past (we went / I did / they were etc.), the meaning is present, not past:
+> It's late. It's time we went home.
+
+It's time somebody did something = they should have already done it or started it. we often use this structure to criticise or to complain
+
+> This situation can't continue. It's time you did something about it.
+
+You can also say It's about time ... . This makes the criticism stronger
+
+> Jack is a great talker. But it’s about time he did something instead of just talking.
+
+## Would
+##### we use would ('d) / wouldn't when we imagine a situation or action
+> It would be nice to buy a new car, but we can't afford it.
+
+##### we use would have (done) when we imagine situations or actions in the past
+> They helped us a lot. I don’t know what we'd have done without their help.
+
+##### to express the idea that in the past you thought something would happen in the future
+> Tom said he'd call me on Sunday.
+
+##### somebody wouldn't do something = he/she refused to do it
+> The car wouldn't start. (= it ‘refused’ to start)
+
+compare with
+
+> The car won't start. (= it 'refuses' to start)
+
+##### to talk about things that happened regularly in the past
+> Whenever Richard was angry, he would walk out of the room. (He did it regularly)
+
+very similar to used to
+
+## Can/Could/Would you ... ?
+
+##### we use can/could and will/would (less usual) to ask people to do things
+> Can you wait a moment, please?
+
+> Could you wait a moment, please?
+
+> Helen, will you do me a favour?
+
+##### to ask for something, we use can/could/may I have/get ... ?
+> Can I have (or get) these postcards, please?
+
+> Could I have the salt, please?
+
+##### to offer to do something, we use can I
+> Can I help you?
