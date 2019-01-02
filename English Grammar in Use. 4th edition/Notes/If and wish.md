@@ -22,11 +22,6 @@ in the same way we use **I wish + past perfect**
 
 > I wish I'd known that Gary was ill. I would have gone to see him.
 
-do not use would have ... after wish
-
-> The weather was cold when we were on holiday. I wish it had been warmer. (not I wish it
-would have been).
-
 ##### after if and wish, you can use were instead of was
 > If I were you, I wouldn't buy that coat. (or If I was you...)
 
