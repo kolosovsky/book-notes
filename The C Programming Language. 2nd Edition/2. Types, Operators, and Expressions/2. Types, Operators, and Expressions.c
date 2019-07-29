@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-	printf("%d\n", '\v' == 11 && '\013' == 11 && '\v' == '\xb' && );
+	printf("hello," " world\n");
 
 	return 0;
 }
