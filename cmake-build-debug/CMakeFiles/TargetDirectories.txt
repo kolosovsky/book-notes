@@ -1,0 +1,3 @@
+/home/kolos/projects/book-notes/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/kolos/projects/book-notes/cmake-build-debug/CMakeFiles/book_notes.dir
+/home/kolos/projects/book-notes/cmake-build-debug/CMakeFiles/edit_cache.dir
