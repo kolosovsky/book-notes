@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
+#include <stdbool.h>
 
+// exercise 2-3
 int htoi(char str[]) {
 	int i;
 	int result = 0;
@@ -32,9 +34,31 @@ int htoi(char str[]) {
 	return result;
 }
 
+// exercise 2-5
+int any(char s1[], char s2[]) {
+	int result;
+	int found = 0;
+
+	for (int i = 0; i < strlen(s2); ++i) {
+		char ch = s2[i];
+
+		for (int j = 0; j < strlen(s1); ++j) {
+			if (s1[j] == ch && (!found || result > j)) {
+				printf("%c, %d\n", ch, j);
+				result = j;
+				found = 1;
+			}
+		}
+	}
+
+	return found ? result : -1;
+}
+
 int main() {
 
-	printf("%d\n", htoi("99af"));
+//	printf("%d\n", htoi("99af"));
+//	printf("%d\n", any("asdf", "jjd;s"));
+	printf("%f\n", 0 ? 0.1 : 2);
 
 	return 0;
 }
