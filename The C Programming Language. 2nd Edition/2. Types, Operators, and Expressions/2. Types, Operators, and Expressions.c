@@ -2,6 +2,7 @@
 #include <string.h>
 #include <math.h>
 #include <stdbool.h>
+#include <ctype.h>
 
 // exercise 2-3
 int htoi(char str[]) {
@@ -58,7 +59,6 @@ int main() {
 
 //	printf("%d\n", htoi("99af"));
 //	printf("%d\n", any("asdf", "jjd;s"));
-	printf("%f\n", 0 ? 0.1 : 2);
 
 	return 0;
 }

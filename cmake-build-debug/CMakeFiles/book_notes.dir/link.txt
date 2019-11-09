@@ -1,1 +1,0 @@
-/usr/bin/cc -g   CMakeFiles/book_notes.dir/The_C_Programming_Language._2nd_Edition/1._A_Tutorial_Introduction/1._A_Tutorial_Introduction.c.o  -o book_notes 
