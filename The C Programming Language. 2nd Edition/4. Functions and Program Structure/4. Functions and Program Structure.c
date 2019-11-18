@@ -1,4 +1,5 @@
 #include <stdio.h>
+#define concat(a, b) a##b
 
 int main() {
 	// Internal automatic variable
@@ -14,4 +15,8 @@ int main() {
 
 		printf("%d\n", n++); // prints: 0 1 2
 	}
+
+	// operator ##
+	int xy = 30;
+	printf("%d\n", concat(x, y));
 }
