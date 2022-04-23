@@ -8,7 +8,7 @@ const listItems = numbers.map((number) =>
 );
 ```
 
-Then, we can include the entire listItems array inside a <ul> element:
+Then, we can include the entire listItems array inside a `<ul>` element:
 
 ```tsx
 <ul>{listItems}</ul>
