@@ -8,7 +8,7 @@ const listItems = numbers.map((number) =>
 );
 ```
 
-Then, we can include the entire listItems array inside a `<ul>` element:
+Then, we can include the entire `listItems` array inside a `<ul>` element:
 
 ```tsx
 <ul>{listItems}</ul>
@@ -89,7 +89,7 @@ const content = posts.map((post) =>
 );
 ```
 
-With the example above, the Post component can read props.id, but not props.key.
+With the example above, the Post component can read `props.id`, but not `props.key`.
 
 `JSX` allows embedding any expression in curly braces so we could inline the `map()` result:
 ```tsx
