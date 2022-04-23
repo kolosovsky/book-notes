@@ -50,7 +50,7 @@ const todoItems = todos.map((todo, index) =>
 
 We don’t recommend using indexes for keys if the order of items may change. This can negatively impact performance and
 may cause issues with component state. If you choose not to assign an explicit key to list items then React will default
-to using indexes as keys.
+to using indexes as keys, also you’ll be given a warning that a key should be provided for list items.
 
 In the following example you should keep the key on the `<ListItem />` elements in the array rather than on the `<li>`
 element in the `ListItem` itself:
