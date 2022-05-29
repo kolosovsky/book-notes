@@ -130,7 +130,7 @@ scope. Hooks embrace JavaScript closures and avoid introducing React-specific AP
 solution.
 
 **Does useEffect run after every render?** Yes! By default, it runs both after the first render and after every
-update. (We will later talk about how to customize this.) Instead of thinking in terms of “mounting” and “updating”, you
+update. Instead of thinking in terms of “mounting” and “updating”, you
 might find it easier to think that effects happen “after render”. React guarantees the DOM has been updated by the time
 it runs the effects.
 
