@@ -10,7 +10,8 @@ dependencies has changed. This optimization helps to avoid expensive calculation
 Remember that the function passed to useMemo runs during rendering. Don’t do anything there that you wouldn’t normally
 do while rendering. For example, side effects belong in `useEffect`, not `useMemo`.
 
-If no array is provided, a new value will be computed on every render.
+If no array is provided, a new value will be computed on every render. Using `useMemo()` with an empty dependencies
+array will calculate the value only once, on mount.
 
 You may rely on useMemo as a performance optimization, not as a semantic guarantee. In the future, React may choose to
 “forget” some previously memoized values and recalculate them on next render, e.g. to free memory for offscreen
