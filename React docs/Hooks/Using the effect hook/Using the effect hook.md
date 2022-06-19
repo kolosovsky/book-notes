@@ -7,10 +7,10 @@ useEffect(() => {
     // this is "effect" function
 
     return () => {
-        // this is "cleanup" function and it optional,
+        // this is "cleanup" function and it is optional,
         // effect function may not return it
     }
-}, [] /* this array is dependencies list, it is optional */);
+}, [] /* this array is a dependencies list, it is optional */);
 ```
 
 Way 1 (with empty dependencies array):
