@@ -39,12 +39,12 @@ const selectedField = useSyncExternalStore(
 );
 ```
 
-`getSnapshot` must return a cached value. If getSnapshot is called multiple times in a row, it must return the same
+`getSnapshot` must return a cached value. If `getSnapshot` is called multiple times in a row, it must return the same
 exact value unless there was a store update in between.
 
-A shim is provided for supporting multiple React versions published as use-sync-external-store/shim. This shim will
+A shim is provided for supporting multiple React versions published as `use-sync-external-store/shim`. This shim will
 prefer `useSyncExternalStore` when available, and fallback to a user-space implementation when it’s not.
 
-As a convenience, we also provide a version of the API with automatic support for memoizing the result of getSnapshot
-published as use-sync-external-store/with-selector.
+As a convenience, we also provide a version of the API with automatic support for memoizing the result of `getSnapshot`
+published as `use-sync-external-store/with-selector`.
 
