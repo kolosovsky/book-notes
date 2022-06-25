@@ -1,6 +1,6 @@
 ### DIRECT DEPENDENCY (COUPLING)
 
-/services/http.ts
+http.ts
 
 ```ts
 export class Http {
@@ -10,10 +10,11 @@ export class Http {
 }
 ```
 
-components/component.ts
+Component.ts
 
 ```ts
-import { Http } from '/services/http'
+import { Http } from 'http';
+import React from 'react';
 
 export class Component extends React.Component {
     http: Http;
@@ -28,7 +29,7 @@ export class Component extends React.Component {
 
 ### DEPENDENCY INJECTION (STILL COUPLING, BUT BETTER)
 
-/services/http.ts
+http.ts
 
 ```ts
 export class Http {
@@ -38,9 +39,12 @@ export class Http {
 }
 ```
 
-components/component.ts
+Component.ts
 
 ```ts
+import { Http } from 'http';
+import React from 'react';
+
 export class Component extends React.Component {
     http: Http;
 
@@ -50,11 +54,12 @@ export class Component extends React.Component {
 }
 ```
 
-components/app.ts
+App.ts
 
 ```tsx
-import { Component } from 'components/component.ts';
-import { Http } from '/services/http'
+import { Component } from 'Component.ts';
+import { Http } from 'http'
+import React from 'react';
 
 export class App extends React.Component {
     render() {
@@ -65,7 +70,7 @@ export class App extends React.Component {
 
 ### DEPENDENCY INVERSION (NO COUPLING)
 
-/interfaces/http.ts
+interfaces/http.ts
 
 ```ts
 export interface IHttp {
@@ -73,10 +78,10 @@ export interface IHttp {
 }
 ```
 
-/services/http.ts
+http.ts
 
 ```ts
-import { IHttp } from '/interfaces/http';
+import { IHttp } from './interfaces/http';
 
 export class Http implements IHttp {
     get(): Promise<Response> {
@@ -85,35 +90,45 @@ export class Http implements IHttp {
 }
 ```
 
-/app-context.ts
+app-context.ts
 ```ts
-import { IHttp } from '/interfaces/http';
+import { IHttp } from './interfaces/http';
+import React from 'react';
 
 export interface IAppContext {
     http: IHttp;
 }
 
-export const AppContext: React.Context<IAppContext> = React.createContext(null);
+const defaultContext: IAppContext = {
+    http: {
+        get(): Promise<Response> {
+            return Promise.resolve(new Response());
+        }
+    }
+}
+
+export const AppContext: React.Context<IAppContext> = React.createContext(defaultContext);
 ```
 
-/dependencies.ts
+dependencies.ts
 ```ts
-import { Http } from '/services/http'
+import { IAppContext } from './app-context';
+import { Http } from './http';
 
-export const appDependencies: AppContext = {
-    http: Http(),
+export const appDependencies: IAppContext = {
+    http: new Http(),
 }
 ```
 
-components/app.ts
+App.ts
 
 ```tsx
-import { Component } from 'components/component.ts';
-import { Http } from '/services/http';
-import { appDependencies } from '/dependencies.ts';
-import { AppContext } from '/app-context.ts';
+import React from 'react';
+import { AppContext } from './app-context';
+import { Component } from './Component';
+import { appDependencies } from './dependencies';
 
-export class App extends React.Component {
+class App extends React.Component {
     render() {
         return (
             <AppContext.Provider value={appDependencies}>
@@ -122,20 +137,29 @@ export class App extends React.Component {
         );
     }
 }
+
+export default App;
 ```
 
-components/component.ts
+Component.ts
 
 ```ts
-import { AppContext } from '/app-context.ts';
+import React from 'react';
+import { AppContext } from './app-context';
 
 export class Component extends React.Component {
     static contextType = AppContext;
-    
-    constructor() {
-        super();
-        
-        const http = this.context.http;
+
+    context!: React.ContextType<typeof AppContext>;
+
+    render() {
+        const context = this.context;
+
+        console.log(context.http);
+
+        return (
+            <div></div>
+        )
     }
 }
 ```
