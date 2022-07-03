@@ -1,0 +1,128 @@
+Single-responsibility principle (SRP) states: `There should never be more than one reason for a class to change.` In other words, every class should have
+only one responsibility.
+
+Imagine the following application:
+
+```php
+class Square
+{
+    public $length;
+
+    public function construct($length)
+    {
+        $this->length = $length;
+    }
+}
+```
+
+```php
+class Circle
+{
+    public $radius;
+
+    public function construct($radius)
+    {
+        $this->radius = $radius;
+    }
+}
+```
+
+```php
+class AreaCalculator
+{
+    protected $shapes;
+
+    public function __construct($shapes = [])
+    {
+        $this->shapes = $shapes;
+    }
+
+    public function sum()
+    {
+        foreach ($this->shapes as $shape) {
+            if (is_a($shape, 'Square')) {
+                $area[] = pow($shape->length, 2);
+            } elseif (is_a($shape, 'Circle')) {
+                $area[] = pi() * pow($shape->radius, 2);
+            }
+        }
+
+        return array_sum($area);
+    }
+
+    public function output()
+    {
+        return implode('', [
+          '',
+              'Sum of the areas of provided shapes: ',
+              $this->sum(),
+          '',
+      ]);
+    }
+}
+```
+
+```php
+$shapes = [
+  new Circle(2),
+  new Square(5),
+  new Square(6),
+];
+
+$areas = new AreaCalculator($shapes);
+
+echo $areas->output();
+```
+
+The problem here is that `AreaCalculator` handles the logic to output the data. The `AreaCalculator` class should only
+be concerned with the sum of the areas of provided shapes. It should not care how to output data: whether the user wants
+JSON or HTML.
+
+To fix it, you can create a separate `SumCalculatorOutputter` class and use it to handle the logic you need to output
+the data to the user:
+
+```php
+class SumCalculatorOutputter
+{
+    protected $calculator;
+
+    public function __constructor(AreaCalculator $calculator)
+    {
+        $this->calculator = $calculator;
+    }
+
+    public function JSON()
+    {
+        $data = [
+          'sum' => $this->calculator->sum(),
+      ];
+
+        return json_encode($data);
+    }
+
+    public function HTML()
+    {
+        return implode('', [
+          '',
+              'Sum of the areas of provided shapes: ',
+              $this->calculator->sum(),
+          '',
+      ]);
+    }
+}
+```
+
+Usage would look like this:
+```php
+$shapes = [
+  new Circle(2),
+  new Square(5),
+  new Square(6),
+];
+
+$areas = new AreaCalculator($shapes);
+$output = new SumCalculatorOutputter($areas);
+
+echo $output->JSON();
+echo $output->HTML();
+```
