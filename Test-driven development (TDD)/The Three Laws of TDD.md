@@ -9,7 +9,8 @@ very much of that unit test. As soon as the unit test code fails to compile, or 
 write production code. But by rule 3 you can only write the production code that makes the test compile or pass, and no
 more.
 
-At some point of development rule 3 requires to write something like this
+At some point of development rule 3 requires writing something like this
+
 ```typescript
 class List {
     contain(key: string): boolean {
@@ -17,5 +18,9 @@ class List {
     }
 }
 ```
-which feels like cheating. 
 
+which feels like cheating.
+
+(personal opinion, may be misunderstanding) The simplest reason to use TDD I find for myself is that we need to have a
+way of checking if our tests actually work. We can't write tests for tests. So the only solution is to use a methodology
+that helps to write working tests.
